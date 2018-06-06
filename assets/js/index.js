@@ -1,6 +1,6 @@
 $(document).ready(()=>{
 	const OMDB_KEY="4455de9"
-	const OMDB_URL="http://www.omdbapi.com/?apikey="+OMDB_KEY+"&"
+	const OMDB_URL="https://www.omdbapi.com/?apikey="+OMDB_KEY+"&"
 
 	$('#form').on('submit',getMovieByName);
 
