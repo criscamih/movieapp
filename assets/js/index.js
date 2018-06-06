@@ -28,8 +28,8 @@ $(document).ready(()=>{
 			output+=`<div class="col-md-3  mb-3 text-center ">
 						<div class="well p-3">
 							<img src=${movie.Poster}>
-							<h5>${movie.Title}</h5>
-							<a href="" class="btn btn-primary" onclick="getMovieById('${movie.imdbID}')">
+							<h6 class="text-justify" >${movie.Title}</h6>
+							<a href="" class="btn btn-primary " onclick="getMovieById('${movie.imdbID}')">
 								Ver Detalle
 							</a>
 						</div>

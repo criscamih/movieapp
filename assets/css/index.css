@@ -9,6 +9,14 @@ body{
 	background-color: #202223;
 	color:white;
 }
+.well{
+	background: #202223;
+	color:white;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	}
 
 img{
 	width: 100%;
